@@ -13,7 +13,7 @@ header h1 { /* Requirement-2.F */
   background-color: black; /* Requirement-2.4 */
   background-size: inherit;
   border-style: ridge;
-  border-radius: 100px; /* Requirement-2.9 */
+  border-radius: 10cm; /* Requirement-2.9 */
   padding: 0.4em; /* Requirement-2.10 */
 }
 
