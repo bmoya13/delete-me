@@ -1,0 +1,134 @@
+header { /* Requirement-2.A */
+  font-size: large; /* Requirement-2.1 */
+  background-color: gray;
+  padding: 10px;
+  border-style: dashed;
+  border-color: black;
+  position: relative;
+  z-index: 1;
+}
+header h1 { /* Requirement-2.F */
+  color: white; /* Requirement-2.3 */
+  font-style: oblique;
+  background-color: black; /* Requirement-2.4 */
+  background-size: inherit;
+  border-style: ridge;
+  border-radius: 100px; /* Requirement-2.9 */
+  padding: 0.4em; /* Requirement-2.10 */
+}
+
+header, section { /* Requirement-2.B */
+  text-align: center; /* Requirement-2.2 */
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+body {
+  /* Created with https://www.css-gradient.com */
+  background: #29e064;
+  background: -webkit-linear-gradient(top left, #29e064, #8051e9);
+  background: -moz-linear-gradient(top left, #29e064, #8051e9);
+  background: linear-gradient(to bottom right, #29e064, #8051e9);
+}
+
+.bottomtag { /* Requirement-2.C */
+  position: fixed; /* Requirement-2.15 */
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px; /* Requirement-2.5 */
+  border-style: solid;
+  background-color: green;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.secret {
+  visibility: hidden; /* Requirement-2.16 */
+}
+.aboutme {
+  width: 60%;
+  height: 150px;
+  overflow-y: auto; /* Requirement-2.14 */
+  text-align: center;
+  border-style: ridge;
+  border-color: blue;
+  padding: 10px;
+}
+
+#navbar { /* Requirement-2.D */
+  top: 2px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  width: 400px; /* Requirement-2.7 */
+  text-align: center;
+  padding: 3px; /* Requirement-2.6 */
+  background: white;
+  box-shadow: 1px 2px 8px hsla(0deg, 0%, 0%, 0.25);
+  border-style: ridge;
+  border-color: black;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 2; /* Requirement-2.17 */
+}
+
+a:hover { /* Requirement-2.E */
+  color: #f400fc;
+}
+a:active {
+  color: #03fce7;
+}
+
+table, td, th {
+  border: 2px solid black;
+}
+
+#classes {
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+details summary { /* Requirement-2.H */
+  background: pink;
+  font-size: larger;
+  padding: 10px;
+}
+
+details { /* Requirement-2.G */
+  background: lightgreen;
+  padding: 10px;
+}
+
+details[open] summary {
+  color: red;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: upper-roman; /* Requirement-2.8 */
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+.calpoly {
+  float: left; /* Requirement-2.11 */
+  height: 10%;
+  width: 10%;
+}
+
+ul.navlist li {
+  display: block; /* Requirement-2.12 */
+}
+
+li a {
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+p {
+    clear: left; /* Requirement-2.13 */
+}

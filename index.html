@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+    <link rel="stylesheet" href="style.css">
     <head>
         <!-- Requirement-1.A -->
         <title>Moya's Cool Website!</title>
@@ -10,19 +11,15 @@
             <!-- Requirement-1.F -->
             <h1>Welcome to Brandon Moya's Cool Website!</h1>
             <h2>~~Full of Cool Stuff!~~</h2>
-            <p>
-                <!-- Requirement-1.H -->
-                <span style="color:red">Here are some cool navigation links</span>
-            </p>
-            <!-- Requirement-1.D -->
-            <nav>
-                <!-- Requirement-1.I -->
-                <a href="https://github.com/bmoya13">My Github</a> |
-                <!-- Requirement-1.J -->
-                <a href="courses.html">Course List</a> |
-                <a href="pets.html">My Pets!</a>
-            </nav>
         </header>
+
+        <div id="navbar">
+            <ul class="navlist">
+                <li><a href="https://github.com/bmoya13">My Github</a></li>
+                <li><a href="courses.html">Course List</a></li>
+                <li><a href="pets.html">My Pets!</a></li>
+              </ul>
+        </div>
 
         <br>
 
@@ -30,12 +27,24 @@
         <section>
             <h3>About Me!</h3>
             <!-- Requirement-1.G -->
-            <p>
-                Hello visitor! My name is Brandon Moya and I am currently a student at Cal Poly Pomona. I am a fourth year Computer Science major! My hometown is Rosemead, CA. Some of my hobbies include playing and creating video games, watching movies, and exploring new places to eat! Anyways, I should probably fill this section out with some more content just so that the page looks more filled and looks kinda cool, I dont know. Does this look cool that it's kinda long? Probably not, but whatever. Either way it'll make the page look hefty. How is your day professor? I dont know if you'll read this but yea, hope you're doing great. Oh right there are some sample questions in the assignment specifications. One of my favorite movies is definitely La La Land. I really enjoy musicals but I found myself completely obsessed with this movie for months.
+            <p class="aboutme">
+                Hello visitor! My name is Brandon Moya and I am currently a student at Cal Poly Pomona. I am a fourth year Computer Science major! My hometown is Rosemead, CA. Some of my hobbies include playing and creating video games, watching movies, and exploring new places to eat! Anyways, I should probably fill this section out with some more content just so that the page looks more filled and looks kinda cool, I dont know. Does this look cool that it's kinda long? Probably not, but whatever. Either way it'll make the page look hefty. How is your day professor? I dont know if you'll read this but yea, hope you're doing great. Oh right there are some sample questions in the assignment specifications. One of my favorite movies is definitely La La Land. I really enjoy musicals but I found myself completely obsessed with this movie for months. Let's see what else, I would love to use the overflow property here so I can show I have lots to say. AAAAAAAA. Uhm, in one of my other classes I am working on this cool app called GeoStashr. It's a geocaching app in which users can submit caches that they maintain for others to find and enjoy. It's honestly looking super clean right now and I'm kind of proud of it? I really can't wait to be done with it and show it off to some people. I guess thats the magic of coding and making things, the huge payoff of showing what you devoted your time to is amazing.
             </p>
         </section>
 
         <br>
+
+        <section>
+            <h3>Education!</h3>
+            <img class="calpoly" src="images/cpp.png" alt="CPP Logo">
+            <p>
+                Currently, I am having a great time at Cal Poly Pomona. The Computer Science department does a great job at providing challenging and satisfying courses. There's also many opportunities here that other schools may not provide, as well as many hands-on aspects. Before university, I attended Rosemead High School. I had an amazing time there, participating in many clubs. I participated in our school's Academic Decathalon team, where we reached the semi-finals in Sacramento, CA. Before High School, I attended Gidley Middle School. I have so many great memories going to school there as a kid. I even have a few teachers there that still remember me and I am able to visit and talk to. By the way, doesn't this site look so cool???? Like wow it's all styled up now, css is amazing right? Hello professor!
+            </p>
+        </section>
+
+        <p class="secret">
+            Look at this cool hidden section, amazing easter egg! Hopefully this is fine for the visibility layout requirement? blah blah blah blah blah blah blah some more space for the footer of this page? blah blah blah blah blah blah WOOOOOOOOOOOOOOO WOOOOOOOOOOOOOOOOOOOO WOOOOOOOOOOOOOOOOOOO WOOOOOOOOOOOOOOOo
+        </p>
         
         <!-- Requirement-1.C -->
         <footer>
@@ -45,5 +54,8 @@
                 Made for CS 2250
             </p>
         </footer>
+
+        <div class="bottomtag">Hosting on Netlify</div>
+
     </body>
 </html>
